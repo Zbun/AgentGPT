@@ -25,6 +25,8 @@ export const createModel = (settings: ModelSettings) => {
     temperature: _settings?.customTemperature || 0.9,
     modelName: _settings?.customModelName || GPT_35_TURBO,
     maxTokens: _settings?.maxTokens || 400,
+  }, {
+    basePath: "/oAPI/v1",
   });
 };
 

@@ -382,11 +382,11 @@ class AutonomousAgent {
       type: MESSAGE_TYPE_SYSTEM,
       value: !!this.modelSettings.customApiKey
         ? `${i18n?.t("AGENT_MAXED_OUT_LOOPS", "AGENT_MAXED_OUT_LOOPS", {
-            ns: "errors",
-          })}`
+          ns: "errors",
+        })}`
         : `${i18n?.t("DEMO_LOOPS_REACHED", "DEMO_LOOPS_REACHED", {
-            ns: "errors",
-          })}`,
+          ns: "errors",
+        })}`,
     });
   }
 
@@ -436,7 +436,7 @@ const testConnection = async (modelSettings: ModelSettings) => {
   // A dummy connection to see if the key is valid
   // Can't use LangChain / OpenAI libraries to test because they have retries in place
   return await axios.post(
-    "https://api.openai.com/v1/chat/completions",
+    "/oAPI/v1/chat/completions",
     {
       model: modelSettings.customModelName,
       messages: [{ role: "user", content: "Say this is a test" }],
