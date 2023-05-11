@@ -274,13 +274,13 @@ const Home: NextPage = () => {
                 onSave={
                   shouldShowSave
                     ? (format) => {
-                        setHasSaved(true);
-                        agentUtils.saveAgent({
-                          goal: goalInput.trim(),
-                          name: nameInput.trim(),
-                          tasks: messages,
-                        });
-                      }
+                      setHasSaved(true);
+                      agentUtils.saveAgent({
+                        goal: goalInput.trim(),
+                        name: nameInput.trim(),
+                        tasks: messages,
+                      });
+                    }
                     : undefined
                 }
                 scrollToBottom
@@ -300,7 +300,7 @@ const Home: NextPage = () => {
                       <FaRobot />
                       <span className="ml-2">{`${i18n?.t("AGENT_NAME", {
                         ns: "indexPage",
-                      })}`}</span>
+                      })}`}</span><span style={{ color: "rgb(58, 58, 58)" }}>(五)</span>
                     </>
                   }
                   value={nameInput}

@@ -105,7 +105,7 @@ const ChatWindow = ({
         className={clsx(
           "mb-2 mr-2 ",
           (fullscreen && "max-h-[75vh] flex-grow overflow-auto") ||
-            "window-heights"
+          "window-heights"
         )}
         ref={scrollRef}
         onScroll={handleScroll}
@@ -168,7 +168,7 @@ const ChatWindow = ({
       </div>
       {displaySettings && (
         <>
-          <div className="flex items-center justify-center">
+          {/* <div className="flex items-center justify-center">
             <div className="m-1 flex items-center gap-2 rounded-lg border-[2px] border-white/20 bg-zinc-700 px-2 py-1">
               <p className="font-mono text-sm">Web search</p>
               <Switch
@@ -176,7 +176,7 @@ const ChatWindow = ({
                 onChange={handleChangeWebSearch}
               />
             </div>
-          </div>
+          </div> */}
         </>
       )}
     </div>
@@ -402,8 +402,8 @@ const ChatMessage = ({ message }: { message: Message }) => {
           {
             // Link to the FAQ if it is a shutdown message
             message.type == MESSAGE_TYPE_SYSTEM &&
-              (message.value.toLowerCase().includes("shut") ||
-                message.value.toLowerCase().includes("error")) && <FAQ />
+            (message.value.toLowerCase().includes("shut") ||
+              message.value.toLowerCase().includes("error")) && <FAQ />
           }
         </>
       )}
