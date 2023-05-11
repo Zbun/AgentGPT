@@ -1,4 +1,5 @@
 {
+  "SUPPORT_BUTTON": "支持",
   "HELP_BUTTON": "帮助",
   "SETTINGS_BUTTON": "设置",
   "MY_AGENTS": "我的代理人",
@@ -6,6 +7,9 @@
   "NEED_TO_SIGN_IN_AND_CREATE_AGENT_FIRST": "在此显示任何内容之前，您需要先创建和保存第一个代理人！",
   "SIGN_IN": "登录",
   "SIGN_OUT": "退出",
-  "ACCOUNT" : "帐户",
-  "USER_IMAGE": "用户图片"
+  "ACCOUNT": "帐户",
+  "USER_IMAGE": "用户图片",
+  "IMAGE": "图片",
+  "COPY": "复制",
+  "EXPORT": "导出"
 }
