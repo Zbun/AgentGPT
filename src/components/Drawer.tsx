@@ -193,7 +193,7 @@ const Drawer = ({
               target="_blank"
               small
             />
-            <DrawerItem
+            {/* <DrawerItem
               icon={
                 <FaTwitter
                   size={30}
@@ -204,7 +204,7 @@ const Drawer = ({
               href="https://twitter.com/asimdotshrestha/status/1644883727707959296"
               target="_blank"
               small
-            />
+            /> */}
             <DrawerItem
               icon={
                 <FaGithub

@@ -44,7 +44,7 @@ export default function HelpDialog({
           >
             <FaDiscord size={30} />
           </div>
-          <div
+          {/* <div
             className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"
             onClick={() =>
               window.open(
@@ -54,7 +54,7 @@ export default function HelpDialog({
             }
           >
             <FaTwitter size={30} />
-          </div>
+          </div> */}
           <div
             className="cursor-pointer rounded-full bg-black/30 p-3 hover:bg-black/70"
             onClick={() =>
