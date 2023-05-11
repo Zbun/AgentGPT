@@ -5,9 +5,5 @@
   "LABEL_AGENT_GOAL": "目标",
   "PLACEHOLDER_AGENT_GOAL": "让世界变得更美好",
   "BUTTON_DEPLOY_AGENT": "启动代理",
-  "BUTTON_STOP_AGENT": "停止代理",
-  "IMAGE": "图片",
-  "COPY": "复制",
-  "EXPORT": "导出",
-  "RUNNING": "运行中"
+  "BUTTON_STOP_AGENT": "停止代理"
 }
