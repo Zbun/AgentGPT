@@ -125,7 +125,7 @@ const Drawer = ({
                 />
               )
             )}
-
+            {/*
             {status === "unauthenticated" && (
               <div>
                 <a
@@ -145,7 +145,7 @@ const Drawer = ({
                   ns: "drawer",
                 })}`}
               </div>
-            )}
+            )} */}
           </ul>
         </div>
 
@@ -159,7 +159,7 @@ const Drawer = ({
                 session={session}
               />
             ))}
-          <AuthItem session={session} signIn={signIn} signOut={signOut} />
+          {/* <AuthItem session={session} signIn={signIn} signOut={signOut} /> */}
           <DrawerItem
             icon={<FaQuestionCircle />}
             text={`${t("HELP_BUTTON", { ns: "drawer" })}`}
