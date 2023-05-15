@@ -290,7 +290,7 @@ const MacWindowHeader = (props: HeaderProps) => {
       icon={<FaClipboard size={12} />}
       name={`${t("COPY", { ns: "common" })}`}
     />,
-    <PDFButton key="PDF" name="PDF" messages={props.messages} />,
+    // <PDFButton key="PDF" name="PDF" messages={props.messages} />,
   ];
 
   return (
